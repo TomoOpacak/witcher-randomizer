@@ -4,7 +4,8 @@ import "./css/style.css";
 function App() {
   return (
     <div>
-      <h1 className="title">Vještac - Nasumična igra</h1>
+      <h1>Vještac Nasumična igra</h1>
+
       <MonsterCards />
       <CitizenCards />
       <footer>
