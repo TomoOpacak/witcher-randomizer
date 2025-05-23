@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-witcher-randomizer/static/css/main.c3431f8a.css",
+    "main.js": "/react-witcher-randomizer/static/js/main.329bb530.js",
+    "static/js/453.f038f22c.chunk.js": "/react-witcher-randomizer/static/js/453.f038f22c.chunk.js",
+    "index.html": "/react-witcher-randomizer/index.html",
+    "main.c3431f8a.css.map": "/react-witcher-randomizer/static/css/main.c3431f8a.css.map",
+    "main.329bb530.js.map": "/react-witcher-randomizer/static/js/main.329bb530.js.map",
+    "453.f038f22c.chunk.js.map": "/react-witcher-randomizer/static/js/453.f038f22c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3431f8a.css",
+    "static/js/main.329bb530.js"
+  ]
+}

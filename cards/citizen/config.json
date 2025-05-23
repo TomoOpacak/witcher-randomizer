@@ -1,0 +1,14 @@
+{
+  "sets": [
+    { "set": 1, "count": 5 },
+    { "set": 2, "count": 5 },
+    { "set": 3, "count": 5 },
+    { "set": 4, "count": 5 },
+    { "set": 5, "count": 4 },
+    { "set": 6, "count": 4 },
+    { "set": 7, "count": 5 },
+    { "set": 8, "count": 5 },
+    { "set": 9, "count": 5 },
+    { "set": 10, "count": 5 }
+  ]
+}
