@@ -1,6 +1,6 @@
 {
   "name": "app-witcher",
-  "homepage": "https://tomoopacak.github.io/react-witcher-randomizer",
+  "homepage": "https://tomoopacak.github.io/witcher-randomizer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
