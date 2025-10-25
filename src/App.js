@@ -4,7 +4,11 @@ import "./css/style.css";
 function App() {
   return (
     <div>
-      <h1>⚀ Kraljevstvo Kockica ⚅</h1>
+      <div className="naslov">
+        <h1>⚀</h1>
+        <h1>Kraljevstvo Kockica</h1>
+        <h1>⚅</h1>
+      </div>
 
       <MonsterCards />
       <CitizenCards />
