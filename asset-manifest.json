@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/witcher-randomizer/static/css/main.08549dc2.css",
-    "main.js": "/witcher-randomizer/static/js/main.1c08c8f0.js",
-    "static/js/453.f038f22c.chunk.js": "/witcher-randomizer/static/js/453.f038f22c.chunk.js",
+    "main.css": "/witcher-randomizer/static/css/main.aa176999.css",
+    "main.js": "/witcher-randomizer/static/js/main.8734b648.js",
+    "static/js/453.d48fe15b.chunk.js": "/witcher-randomizer/static/js/453.d48fe15b.chunk.js",
     "index.html": "/witcher-randomizer/index.html",
-    "main.08549dc2.css.map": "/witcher-randomizer/static/css/main.08549dc2.css.map",
-    "main.1c08c8f0.js.map": "/witcher-randomizer/static/js/main.1c08c8f0.js.map",
-    "453.f038f22c.chunk.js.map": "/witcher-randomizer/static/js/453.f038f22c.chunk.js.map"
+    "main.aa176999.css.map": "/witcher-randomizer/static/css/main.aa176999.css.map",
+    "main.8734b648.js.map": "/witcher-randomizer/static/js/main.8734b648.js.map",
+    "453.d48fe15b.chunk.js.map": "/witcher-randomizer/static/js/453.d48fe15b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08549dc2.css",
-    "static/js/main.1c08c8f0.js"
+    "static/css/main.aa176999.css",
+    "static/js/main.8734b648.js"
   ]
 }
