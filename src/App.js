@@ -4,14 +4,13 @@ import "./css/style.css";
 function App() {
   return (
     <div>
-      <h1>Vještac Nasumična igra</h1>
+      <h1>⚀ Kraljevstvo Kockica ⚅</h1>
 
       <MonsterCards />
       <CitizenCards />
       <footer>
         <p>
           This page is made for educational purposes and only for personal use.
-          All art provided from Gwent Card Game.
         </p>
         <p>Translation made by Reattera</p>
       </footer>

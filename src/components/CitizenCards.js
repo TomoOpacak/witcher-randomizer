@@ -39,7 +39,7 @@ export default function CitizenCards() {
 
   return (
     <div className="card-game">
-      <h1 className="title">Građani</h1>
+      <h1 className="title">Likovi</h1>
       <div className="card-grid">
         {cards.map((card, index) => (
           <div key={card.id} className="card">
