@@ -123,8 +123,6 @@ footer {
 }
 
 @media (max-width: 700px) {
-  body {
-  }
   .card-grid {
     grid-template-columns: auto auto;
   }
