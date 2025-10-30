@@ -69,7 +69,7 @@ export default function CitizenCards() {
         className="new-game-button citizen-button"
         onClick={shuffleCitizenCards}
       >
-        Novi Građani
+        Novi Likovi
       </button>
     </div>
   );
