@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../css/style.css";
 
 const cardImages = Array.from(
-  { length: 13 },
+  { length: 25 },
   (_, i) => `${process.env.PUBLIC_URL}/cards/monster/card${i + 1}.webp`
 );
 
