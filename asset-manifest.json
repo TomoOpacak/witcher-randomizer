@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/witcher-randomizer/static/css/main.51f5e49b.css",
-    "main.js": "/witcher-randomizer/static/js/main.4231a28f.js",
+    "main.css": "/witcher-randomizer/static/css/main.d93677a2.css",
+    "main.js": "/witcher-randomizer/static/js/main.202e264e.js",
     "static/js/453.d48fe15b.chunk.js": "/witcher-randomizer/static/js/453.d48fe15b.chunk.js",
     "index.html": "/witcher-randomizer/index.html",
-    "main.51f5e49b.css.map": "/witcher-randomizer/static/css/main.51f5e49b.css.map",
-    "main.4231a28f.js.map": "/witcher-randomizer/static/js/main.4231a28f.js.map",
+    "main.d93677a2.css.map": "/witcher-randomizer/static/css/main.d93677a2.css.map",
+    "main.202e264e.js.map": "/witcher-randomizer/static/js/main.202e264e.js.map",
     "453.d48fe15b.chunk.js.map": "/witcher-randomizer/static/js/453.d48fe15b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51f5e49b.css",
-    "static/js/main.4231a28f.js"
+    "static/css/main.d93677a2.css",
+    "static/js/main.202e264e.js"
   ]
 }
