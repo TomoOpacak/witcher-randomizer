@@ -5,18 +5,26 @@ function App() {
   return (
     <div>
       <div className="naslov">
-        <h1>⚀</h1>
-        <h1>Kraljevstvo Kockica</h1>
-        <h1>⚅</h1>
+        <img
+          src={`${process.env.PUBLIC_URL}/images/dice_icon_l.webp`}
+          alt="Dice Icon"
+          className="dice-icon-left wobble-image"
+        />
+        <h1 className="main-title">Kraljevstvo Kockica</h1>
+        <img
+          src={`${process.env.PUBLIC_URL}/images/dice_icon_r.webp`}
+          alt="Dice Icon"
+          className="dice-icon-right wobble-image"
+        />
       </div>
 
       <MonsterCards />
       <CitizenCards />
       <footer>
         <p>
-          This page is made for educational purposes and only for personal use.
+          Ova stranica je napravljena u obrazovne svrhe i samo za osobnu
+          upotrebu.
         </p>
-        <p>Translation made by Reattera</p>
       </footer>
     </div>
   );

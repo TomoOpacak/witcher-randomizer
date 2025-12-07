@@ -44,7 +44,9 @@ export default function CardGame() {
 
   return (
     <div className="card-game">
-      <h2 className="title">Čudovišta</h2>
+      <h2 className="title" style={{ color: "rgba(44, 44, 44, 1)" }}>
+        Čudovišta
+      </h2>
       <div className="card-grid">
         {cards.map((card, index) => (
           <div key={card.id} className="card">
