@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/witcher-randomizer/static/css/main.07fa89df.css",
-    "main.js": "/witcher-randomizer/static/js/main.f060f313.js",
+    "main.css": "/witcher-randomizer/static/css/main.bf3e5c39.css",
+    "main.js": "/witcher-randomizer/static/js/main.311707bd.js",
     "static/js/453.d48fe15b.chunk.js": "/witcher-randomizer/static/js/453.d48fe15b.chunk.js",
     "static/media/dwarvenaxe-bb-w00-regular.ttf": "/witcher-randomizer/static/media/dwarvenaxe-bb-w00-regular.e9404e7ae24fb1f73182.ttf",
     "index.html": "/witcher-randomizer/index.html",
-    "main.07fa89df.css.map": "/witcher-randomizer/static/css/main.07fa89df.css.map",
-    "main.f060f313.js.map": "/witcher-randomizer/static/js/main.f060f313.js.map",
+    "main.bf3e5c39.css.map": "/witcher-randomizer/static/css/main.bf3e5c39.css.map",
+    "main.311707bd.js.map": "/witcher-randomizer/static/js/main.311707bd.js.map",
     "453.d48fe15b.chunk.js.map": "/witcher-randomizer/static/js/453.d48fe15b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07fa89df.css",
-    "static/js/main.f060f313.js"
+    "static/css/main.bf3e5c39.css",
+    "static/js/main.311707bd.js"
   ]
 }
