@@ -5,7 +5,7 @@ export default function CitizenCards() {
   const [cards, setCards] = useState([]);
   const [isFlipped, setIsFlipped] = useState(false);
   const [config, setConfig] = useState([]);
-
+  const [zoomedCard, setZoomedCard] = useState(null);
   // Load config from public folder
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/cards/citizen/config.json`)
@@ -54,6 +54,7 @@ export default function CitizenCards() {
                   src={`${process.env.PUBLIC_URL}/cards/citizen/back.webp`}
                   alt="Card back"
                   className="card-image"
+                  onClick={() => setZoomedCard(card)} // <— Enable zoom
                 />
               </div>
               <div className="card-front">
@@ -61,12 +62,18 @@ export default function CitizenCards() {
                   src={card.src}
                   alt={`Citizen card ${index + 1}`}
                   className="card-image"
+                  onClick={() => setZoomedCard(card)}
                 />
               </div>
             </div>
           </div>
         ))}
       </div>
+      {zoomedCard && (
+        <div className="zoom-overlay" onClick={() => setZoomedCard(null)}>
+          <img src={zoomedCard.src} className="zoom-image" alt="zoom" />
+        </div>
+      )}
       <button
         className="new-game-button citizen-button"
         onClick={shuffleCitizenCards}

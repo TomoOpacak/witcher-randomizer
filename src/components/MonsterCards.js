@@ -17,6 +17,7 @@ function getRandomCards(cardArray, count) {
 export default function CardGame() {
   const [cards, setCards] = useState([]);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [zoomedCard, setZoomedCard] = useState(null);
 
   // Load cards on mount and trigger initial flip
   useEffect(() => {
@@ -66,13 +67,18 @@ export default function CardGame() {
                   src={card.src}
                   alt={`Card ${index + 1}`}
                   className="card-image"
+                  onClick={() => setZoomedCard(card)}
                 />
               </div>
             </div>
           </div>
         ))}
       </div>
-
+      {zoomedCard && (
+        <div className="zoom-overlay" onClick={() => setZoomedCard(null)}>
+          <img src={zoomedCard.src} className="zoom-image" alt="zoom" />
+        </div>
+      )}
       <button className="new-game-button monster-button" onClick={shuffleCards}>
         Nova Čudovišta
       </button>
