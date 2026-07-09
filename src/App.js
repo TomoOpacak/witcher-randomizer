@@ -3,18 +3,12 @@ import MonsterCards from "./components/MonsterCards";
 import "./css/style.css";
 function App() {
   return (
-    <div>
-      <div className="naslov">
+    <div className="main">
+      <div>
         <img
-          src={`${process.env.PUBLIC_URL}/images/dice_icon_l.webp`}
+          src={`${process.env.PUBLIC_URL}/icons/logo_title.webp`}
           alt="Dice Icon"
-          className="dice-icon-left wobble-image"
-        />
-        <h1 className="main-title">Kraljevstvo Kockica</h1>
-        <img
-          src={`${process.env.PUBLIC_URL}/images/dice_icon_r.webp`}
-          alt="Dice Icon"
-          className="dice-icon-right wobble-image"
+          className="logo-title"
         />
       </div>
 

@@ -5,29 +5,32 @@
 }
 @font-face {
   font-family: "Dwarf";
-  src: local("dwarvenaxe-bb-w00-regular"),
+  src:
+    local("dwarvenaxe-bb-w00-regular"),
     url("/src/fonts/dwarvenaxe-bb-w00-regular.ttf") format("truetype");
 }
 body {
-  background-color: #f0f0f0;
-  color: #333;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: linear-gradient(rgb(212, 247, 243), rgb(221, 229, 192));
 }
-
-.card-game {
-  text-align: center;
-}
-.naslov {
+.main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.main-title {
-  font-size: 3.5rem;
-  text-align: center;
+.monster-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.citizen-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+
 .card:active {
   transform: scale(0.9);
 }
@@ -46,65 +49,39 @@ body {
 }
 
 .zoom-image {
-  width: 250px;
+  width: 350px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-.wobble-image {
-  display: inline-block;
-  width: 200px; /* or any size you want */
-  height: auto;
-
-  /* smooth scaling and wobble */
-  animation: pulseWobble 2s ease-in-out infinite;
-  transform-origin: center center;
+.logo-title {
+  width: 100%;
+  max-width: 750px;
 }
-
-/* combined pulse + wobble */
-@keyframes pulseWobble {
-  0% {
-    transform: scale(1) rotate(0deg);
-  }
-  25% {
-    transform: scale(1.05) rotate(3deg);
-  }
-  50% {
-    transform: scale(1) rotate(-3deg);
-  }
-  75% {
-    transform: scale(1.05) rotate(3deg);
-  }
-  100% {
-    transform: scale(1) rotate(0deg);
-  }
-}
-h1 {
-  font-size: 3rem;
-  padding: 1rem;
-  text-align: center;
+.random-btn {
+  width: 300px;
   font-family: "Dwarf", sans-serif;
+  background: linear-gradient(rgb(147, 38, 123), rgb(91, 0, 66));
+  color: white;
+  box-shadow:
+    0 4px 9px rgba(0, 0, 0, 0.36),
+    inset 0 0 10px #000;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  padding: 24px;
+  font-size: 42px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
 }
-.title {
-  font-family: "Dwarf", sans-serif;
-  font-size: 2.5rem;
-  margin: 1.5rem 0;
-  text-align: center;
-}
-.dice-icon-left {
-  width: 60px;
-  height: auto;
-  margin-left: 2rem;
-}
-.dice-icon-right {
-  width: 60px;
-  height: auto;
-  margin-right: 2rem;
+.random-btn:active {
+  transform: scale(0.95);
 }
 .card-grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   justify-content: center;
   margin-bottom: 2rem;
 }
@@ -116,7 +93,7 @@ h1 {
 
 .card-inner {
   width: 200px;
-  height: 280px;
+  height: auto;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s ease;
@@ -147,34 +124,6 @@ h1 {
   border-radius: 10px;
 }
 
-.new-game-button {
-  font-family: "Dwarf", sans-serif;
-  background-color: #007bff;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.new-game-button:hover {
-  background-color: #0056b3;
-}
-.new-game-button:active {
-  transform: scale(0.95);
-}
-.monster-button {
-  background-color: rgb(100, 100, 100);
-}
-
-.monster-button:hover {
-  background-color: rgb(51, 51, 51);
-}
-.monster-button:active {
-  transform: scale(0.95);
-}
 footer {
   width: 80%;
   margin: 0 auto;
@@ -184,7 +133,7 @@ footer {
   font-size: 0.8rem;
   font-style: italic;
 }
-@media (max-width: 1100px) {
+@media (max-width: 3000px) {
   .card-inner {
     width: 150px;
     height: 210px;
@@ -193,7 +142,6 @@ footer {
 
 @media (max-width: 700px) {
   .card-grid {
-    grid-template-columns: auto auto;
   }
   .card-inner {
     width: 200px;
@@ -203,7 +151,7 @@ footer {
 
 @media (max-width: 450px) {
   .card-inner {
-    width: 150px;
-    height: 210px;
+    width: 180px;
+    height: 260px;
   }
 }

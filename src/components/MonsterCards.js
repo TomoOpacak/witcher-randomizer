@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../css/style.css";
 
 const cardImages = Array.from(
-  { length: 25 },
-  (_, i) => `${process.env.PUBLIC_URL}/cards/monster/card${i + 1}.webp`
+  { length: 27 },
+  (_, i) => `${process.env.PUBLIC_URL}/cards/monster/card${i + 1}.webp`,
 );
 
 function getRandomCards(cardArray, count) {
@@ -44,10 +44,7 @@ export default function CardGame() {
   };
 
   return (
-    <div className="card-game">
-      <h2 className="title" style={{ color: "rgba(44, 44, 44, 1)" }}>
-        Čudovišta
-      </h2>
+    <div className="monster-section">
       <div className="card-grid">
         {cards.map((card, index) => (
           <div key={card.id} className="card">
@@ -79,7 +76,8 @@ export default function CardGame() {
           <img src={zoomedCard.src} className="zoom-image" alt="zoom" />
         </div>
       )}
-      <button className="new-game-button monster-button" onClick={shuffleCards}>
+
+      <button className="random-btn" onClick={shuffleCards}>
         Nova Čudovišta
       </button>
     </div>

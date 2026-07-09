@@ -38,10 +38,7 @@ export default function CitizenCards() {
   };
 
   return (
-    <div className="card-game">
-      <h1 className="title" style={{ color: "#007bff" }}>
-        Likovi
-      </h1>
+    <div className="citizen-section">
       <div className="card-grid">
         {cards.map((card, index) => (
           <div key={card.id} className="card">
@@ -74,10 +71,7 @@ export default function CitizenCards() {
           <img src={zoomedCard.src} className="zoom-image" alt="zoom" />
         </div>
       )}
-      <button
-        className="new-game-button citizen-button"
-        onClick={shuffleCitizenCards}
-      >
+      <button className="random-btn" onClick={shuffleCitizenCards}>
         Novi Likovi
       </button>
     </div>
